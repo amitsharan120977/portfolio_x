@@ -1,0 +1,32 @@
+name: portfolio_x
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies: 
+  velocity_x: 3.3.0
+  google_fonts: 2.1.0
+  font_awesome_flutter: 9.2.0
+  url_launcher: 6.0.12
+  cupertino_icons: 1.0.3
+  
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_native_splash: ^1.3.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
+flutter_native_splash: 
+  color: "#42a5f5"
+  web: true
+  image: assets/f1.png  
+
